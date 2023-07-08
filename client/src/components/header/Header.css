@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
+
+.header {
+    margin-top: O;
+    background-image: url('https://assets.churchofjesuschrist.org/28/fe/28fe83d5e7705d0e0a43aa8ccc8aec19f15cb5d3/sunrise_flowers.jpeg');
+    height: 553px;
+}
+
+.headerTitles {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   font-family: 'Lora';
+   color: #444; 
+}
+
+.headerTitleSm {
+    position: absolute;
+    color: #fff;
+    top: 18%;
+    font-size: 20px;
+}
+
+.headerTitleLg {
+    color: #fff;
+    position: absolute;
+    top: 20%;
+    font-size: 100px;
+}
+
+.headerImg {
+    width: 100%;
+    height: 450px;
+    margin-top: 80px;
+    object-fit: cover;
+}
